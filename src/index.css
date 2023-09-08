@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+.inputGroup {
+  margin-top: 10px;
+}
+.formWrapper {
+  width: 300px;
+  height: 320px;
+  margin: 100px auto;
+  background-color: #edbb31;
+  padding: 20px;
+  border-radius: 10px;
+}
+label {
+  font-size: 18px;
+  display: block;
+}
+input {
+  width: 290px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 4px;
+  border: 1px solid #ebd493;
+}
+input:focus {
+  outline: none;
+}
+.formBtn {
+  width: 100%;
+  padding: 10px 0px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
