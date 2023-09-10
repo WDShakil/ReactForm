@@ -4,7 +4,7 @@ function Myform(props) {
   const { name, email, password } = user;
 
   const handleChange = (data) => {
-    const fieldName = data.target.name;
+    // const fieldName = data.target.name;
     setUser({ ...user, [data.target.name]: data.target.value });
   };
   const submitHandler = (data) => {

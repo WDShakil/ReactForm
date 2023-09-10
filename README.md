@@ -91,4 +91,4 @@ const submitHandler = (data) => {
 
 ## Form Design
 
-![Alt text](../form/contactForm/src/assets/screenshort.png)
+![Alt text](./screenshort.png)
